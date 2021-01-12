@@ -1,5 +1,7 @@
 <template>
-  <h1>Home Page</h1>
+  <div>
+      <h3>Title {{ this.$route.params.id }} </h3>
+  </div>
 </template>
 
 <script>
